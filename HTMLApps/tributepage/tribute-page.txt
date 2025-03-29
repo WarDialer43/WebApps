@@ -1,0 +1,197 @@
+** start of undefined **
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lunus Tivalds</title>
+    <style>
+        /* Styling the body element
+        like body color and margin */
+
+        body {
+            background-color: #00FA9A;
+            margin: 20%;
+        }
+
+        /* Styling the Title and giving
+        shadow to the title */
+        #title {
+            text-align: center;
+            text-shadow: 5px 5px 10px white;
+            font-size: 7vh;
+        }
+
+        /* Setting width and display
+        type of image */
+        img {
+            display: block;
+            max-width: 100%;
+        }
+
+        /* Setting font color and font
+        size of the image-caption */
+        #caption {
+            font-size: 17px;
+            font-family: Gill Sans;
+            color: black;
+        }
+
+        /* Styling the content of the page like-
+        padding, font-size, font color etc.*/
+        div#tribute-data {
+            background-color: rgb(46, 139, 87, 0.25);
+            box-shadow: 20px 20px 20px #98FB98;
+            font-family: Georgia;
+            padding: 25px 25px;
+            margin: 11px;
+            margin-top: 50px;
+        }
+
+        /* Styling the title of the content */
+        h1.title-APJ {
+            font-size: 35px;
+            color: white;
+            text-align: center;
+            text-shadow: 5px 5px 10px black;
+        }
+
+        /* Styling the link provided at the end */
+        #tribute-link {
+            text-decoration: none;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <main id="main">
+    <h1 id="title">Linus Tivalds</h1>
+    <p> The creator of the Linux kernal project.</p>
+    <figure id="img-div">
+     <img id="image" src="https://sm.pcmag.com/t/pcmag_uk/news/l/linuxs-lin/linuxs-linus-torvalds-sorry-for-being-a-jerk_66mp.1920.png" alt="Linus being political">
+
+            <figcaption id="img-caption">
+                Linus Kicking off and showing his attitude to stupid behaviour regarding kernal development.
+            </figcaption>
+        </figure>
+<section id="tribute-info">
+            <h3 id="headline">
+                History of the Linux Kernal and the open source initiatives that sprung up.
+            </h3>
+           <ul>
+                <li>
+                    1960's was the begining of the pregeneter to Linux called Unix a joint project between Bell labs and the Pentagon that also sprung Minix which is still used tothis day as the
+                    closed source and restricted access os of all Intel CPU's that ended on the mid 2000's when the lats eteration of this dying popreity os called Sco Unix imploaded.
+                </li>
+                <li>
+                    August 25th 1984: Linus Tivalds made a post on the Minix user group announcing his his
+                    work on a free operating system for 386(486) AT clones. He stated it was “just a hobby, won’t be big and professional lik
+                </li>
+                <li>
+                    September 17th, 1991: Linux version 0.01 was released, containing the initial code and basic functionality.
+                    The first usable version of Linux, version 0.02, came out in October 1991, consisting of approximately 10,239 lines of code.
+                </li>
+                <li>
+                    The early development of the Linux kernel saw its distribution restricted by non-commercial licenses.
+                    However, a crucial decision was made to the Linux kernel in 1992 with the release of version 0.12. It was relicensed under the GNU General Public License (GPL),
+                    marking a significant shift in Linux evolution.This switch from a non-commercial license to the GPL made Linux open source, allowing anyone to freely use, modify,
+                    and distribute the kernel. Linus Torvalds himself considers this decision to be the best he ever made.
+                </li>
+                <li>
+                    The fledgling Linux kernel found a perfect partner in the GNU Project: a group developing a free and open-source operating system. The GNU Project provided essential
+                    components like utilities and Linux tools that, when combined with the Linux kernel, formed the foundation for a complete GNU/Linux operating system.
+                    As Linux grew, the need for complete operating systems built around it also grew. This critical need led to the creation of Linux distributions, or “distros.”
+                    1992 saw the release of MCC Interim Linux, one of the first distributions. Others soon followed:
+
+                    Slackware (1993)
+                    Debian (1993)
+                    Red Hat Linux (1994)
+                    SUSE Linux (1994)
+                </li>
+                <li>
+                    1994: Linux 1.0.0 Arrived
+
+                    On March 14th, Linux 1.0.0 was released, consisting of 176,250 lines of code and providing support for single-processor Intel 80386 (i386) systems.
+                    Tux: Symbol of Linux In 1996, Linus Torvalds announced that Linux would have a penguin mascot, inspired by an incident where he was bitten by a little penguin
+                    during a visit to the National Zoo and Aquarium in Canberra, Australia. Larry Ewing created the original draft based on this idea. The name Tux, suggested by James Hughes,
+                    is a play on “Torvalds’ UniX” and “tuxedo,” reflecting the penguin’s appearance. Since its creation, Tux has remained the symbol of Linux for over two decades.
+                </li>
+                <li>
+                    Tux: Symbol of Linux
+                    In 1996, Linus Torvalds announced that Linux would have a penguin mascot, inspired by an incident where he was bitten by a little penguin during a visit to the National
+                    Zoo and Aquarium in Canberra, Australia. Larry Ewing created the original draft based on this idea. The name Tux, suggested by James Hughes, is a play on “Torvalds’ UniX”
+                    and “tuxedo,” reflecting the penguin’s appearance. Since its creation, Tux has remained the symbol of Linux for over two decades.
+                </li>
+                <li>
+                    1996: Linux Kernel 2.0
+
+                    The Linux kernel 2.0 was released, introducing support for multiple processors in a single system (SMP) and more extensive hardware compatibility.
+                </li>
+                <li>
+                    1999: Windows Refund Day
+
+                    On February 15, 1999, in a playful protest known as “Windows Refund Day,” Linux users around the world visited Microsoft offices, attempting to return the
+                    unused Windows licenses that came bundled with their computers.
+                </li>
+
+                <li>
+                    1998-2000: Entering Enterprise
+
+                    The late 1990s and early 2000s witnessed a paradigm shift in the Linux evolution: a surge of interest from the business world. Major tech companies began to recognize
+                    the potential of Linux, leading to several key developments:
+
+                    1999: IBM joined forces with Red Hat, announcing support for Linux
+                    1999: Dell began pre-installing Linux on select servers
+                    2000: The GNOME and KDE desktop environments evolved, making Linux more user friendly for desktop users.
+                    2000: IBM invested $1 billion in Linux development.
+                </li>
+                <li>
+                    2003: The SCO Group Lawsuit
+
+                    The SCO Group (SCO) launched a legal assault in 2003, suing IBM for $1 billion. They claimed that Linux contained copyrighted Unix code.
+                    This battle, which ultimately failed, underscored the importance of understanding the legal and historical context of Linux’s intellectual property.
+                </li>
+                <li>
+                    2004: Ubuntu 4.10 Released
+
+                    On October 20, 2004, Canonical Ltd. released Ubuntu 4.10, codenamed “Warty Warthog,” a distribution that made Linux more accessible to non-geek users and significantly
+                    boosted its adoption on desktops and laptops.
+                </li>
+                <li>
+                    2005: Linus Torvalds’ Git
+
+                    The creation of Git by Linus Torvalds revolutionized version control, becoming an essential tool for software development and marking a significant milestone in the Linux
+                    evolution.
+                </li>
+            </ul>
+<blockquote cite="https://tuxcare.com/blog/linux-evolution-a-comprehensive-timeline/">
+                <p>
+                    Linux is my goto OS and I fully support the open source community in any way that I can.
+                    Thanks to the hard work and dedication of developers from all over the world open source and Linux
+                    are set to dominate the technology scene for the forseable futire.
+                </p>
+            </blockquote>
+            <h3>
+                Find out more about Linux and the open source community and discover how true freedom from
+                poprietry closed source and expensive tools is changing the world for the better.
+            </h3>
+            <a id="tribute-link" href="https://www.linuxfoundation.org/" target="_blank"> https://tuxcare.com/blog/linux-evolution-a-comprehensive-timeline/
+
+            </a>
+        </section>
+    </main>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
