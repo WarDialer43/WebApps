@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <title></title>
+  </head>
+
+<body>
+  <header id="main-header">
+<nav id="navbar">
+  <h1>JS Document</h1>
+    <ul>
+      <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+      <li><a class="nav-link" href="#Prior-knowledge">Prior knowledge</a></li>
+      <li><a class="nav-link" href="#JavaScript-and-Java">JavaScript and Java</a></li>
+      <li><a class="nav-link" href="#What-is-React">What is React</a></li>
+      <li><a class="nav-link" href="#React-in-a-HTML-Page">React in a HTML Page</a></li>
+      <li><a class="nav-link" href="#What-is-Babel">What is Babel</a></li>
+      <li><a class="nav-link" href="#What-is-JSX">What is JSX</a></li>
+      <li><a class="nav-link" href="#React-Elements">React Elements</a></li>
+    </ul>
+</nav>
+  </header>
+  <main id="main-doc">
+    <section class="main-section" id="Introduction">
+      <header>Introduction</header>
+      <article class="main-article">
+        <p>JavaScript is a beginner-friendly programming language that allows developers to design interactive websites.
+          On the other hand, Java is a complex language used to build sophisticated applications like:</p>
+          <ul>
+            <li>Android apps</li>
+            <li>chatbots</li>
+            <li>financial software</li>
+          </ul>
+          <p>
+          Java and JavaScript have distinct purposes, strengths, and limitations.
+          These factors can influence the types of projects you can create and the careers you pursue.
+          Some tech professionals learn both Java and JavaScript, but they may be optional, depending on your professional goals.
+          This guide covers the key differences between Java and JavaScript to help you decide which programming language to learn.
+        </p>
+      </article>
+    </section>
+
+    <section class="main-section" id="Prior-knowledge">
+      <header>Prior knowledge</header>
+      <article class="main-article">
+        <p>
+          Before learning JavaScript, you must know how to code with Hypertext Markup Language (HTML) and Cascading Style Sheets (CSS).
+          That’s because these two tools are fundamental to web development.HTML provides the basic framework for websites, and CSS adds styling elements,
+          like font color, size, and layout. Without these tools, you wouldn’t have anything to apply your JavaScript skills towards.
+          Fortunately, each of these tools is relatively straightforward to learn. Noble Desktop even offers an Intro to HTML and CSS course that teaches the
+          foundations of these markup languages. This includes learning to code a webpage, format paragraphs, create links, add images, and style pages.
+          Individuals who want to take their HTML and CSS skills a step beyond might also consider Noble’s Web Development with HTML and CSS or Advanced HTML and CSS courses.
+        </p>
+      </article>
+    </section>
+
+
+    <section class="main-section" id="JavaScript-and-Java">
+      <header>JavaScript and Java</header>
+      <article class="main-article">
+        <p>
+          Many people think that moving from Java to JavaScript is like switching from driving a car to driving a lorry
+          – they expect it to be fairly similar since both are vehicles. However, Java and JavaScript are as distinct from each other as a car and a sailboat.
+          While both are a means of transportation, their skills, knowledge, and environment are entirely different.
+        </p>
+        <p>
+          JavaScript is an interpreted language, which means it must be executed – or activated – by a JavaScript engine.
+          The developer writes JavaScript code and embeds it in a webpage. The code remains dormant until a user opens the webpage in a web browser
+          like Google Chrome or Mozilla Firefox. These web browsers contain JavaScript engines that execute the JavaScript code, activating interactive
+          features such as:</p>
+          <ul>
+            <li>carousels</li>
+            <li>drop-down menus</li>
+          </ul>
+        <p>
+          <code>
+               let x, y, z;    // Statement 1
+                x = 5;          // Statement 2
+                y = 6;          // Statement 3
+                z = x + y;      // Statement 4
+          </code>
+        </p>
+        <p>
+          By contrast, Java is a compiled language requiring two steps to execute. First, a compiler translates the human-written source code into bytecode,
+          the language of computers. The Java Virtual Machine (JVM) interprets the bytecode into a usable format for a specific operating system and executes it.
+          This process allows developers to write Java code for any platform.
+        </p>
+      </article>
+    </section>
+    <section class="main-section" id="What-is-React">
+      <header>What is React</header>
+      <article class="main-article">
+        <ul>
+          <li>JavaScript library created by Facebook</li>
+          <li>User Interface (UI) library</li>
+          <li>tool for building UI components</li>
+        </ul>
+      </article>
+    </section>
+    <section class="main-section" id="React-in-a-HTML-Page">
+      <header>React in a html page</header>
+      <article class="main-article">
+        <p>Now, with ES6, there are three ways of defining your variables: var, let, and const.</p>
+        <p>
+          If you use var outside of a function, it belongs to the global scope.
+          If you use var inside of a function, it belongs to that function.
+          If you use var inside of a block, i.e. a for loop, the variable is still available outside of that block.
+          </p>
+          <p>
+            <code>
+              <!-- Load React API -->
+              <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+              <!-- Load React DOM-->
+              <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+              <!-- Load Babel Compiler -->
+              <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+            </code>
+          </p>
+
+      </article>
+    </section>
+    <section class="main-section" id="What-is-Babel">
+      <header>What is Babel</header>
+      <article class="main-article">
+        <p>Babel is a JavaScript compiler that can translate markup or programming languages into JavaScript.
+          With Babel, you can use the newest features of JavaScript (ES6 - ECMAScript 2015).
+          Babel is available for different conversions. React uses Babel to convert JSX into JavaScript.
+        </p>
+        <p><code>
+          const element = Hello World!
+        </code></p>
+      </article>
+    </section>
+
+    <section class="main-section" id="What-is-JSX">
+      <header>What is JSX</header>
+      <article class="main-article">
+        <p>JSX stands for JavaScript XML
+          JSX is an XML/HTML like extension to JavaScript.
+        </p>
+        <p><code>
+            <script type="text/babel">
+            const name = 'John Doe';
+              ReactDOM.render(
+              <h1>Hello {name}!</h1>,
+              document.getElementById('id01'));
+</script>
+        </code></p>
+      </article>
+    </section>
+
+    <section class="main-section" id="React-Elements">
+      <header>React Elements</header>
+      <article class="main-article">
+        <p>React applications are usually built around a single HTML element.</p>
+        <p>React developers often call this the root node (root element): div id="root"</p>
+        <p>React elements look like this:const element = Hello React! </p>
+        <p><code>
+          function tick() {
+            const element = ({new Date().toLocaleTimeString()});
+            ReactDOM.render(element, document.getElementById('root'));
+        }
+        setInterval(tick, 1000);
+        </code></p>
+      </article>
+      </section>section
+        </main>
+</body>
+</html>
